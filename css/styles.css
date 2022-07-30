@@ -119,6 +119,17 @@ button {
 
 .quotation {
     background-color: #E5E7EB;
-    padding: 0 256px;
-
+    padding: 128px 320px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
+
+.author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 32px;
+}
+
