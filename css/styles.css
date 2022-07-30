@@ -45,8 +45,9 @@ ul {
 
 .top {
     background-color: #1F2937;
-    padding: 128px 256px;
+    padding: 64px 256px;
     display: flex;
+    align-items: center;
 }
 
 .title {
@@ -80,17 +81,20 @@ button {
     align-items: center;
 }
 
+.information {
+    padding: 64px 256px;
+}
+
 .information .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    padding: 64px;
 }
 
 .cardholder {
     display: flex;
-    padding: 0px 256px 128px 256px;
+    padding: 64px 64px;
     gap: 64px;
     justify-content: center;
 }
@@ -99,20 +103,22 @@ button {
     padding: 5px;
     border-radius: 10px;
     background-color: #3882F6;
-    height: 100%;
-    width: 100%;
+    width: 150px;
+    height: 150px;
 }
 
 .card {
-    flex: 1;
-    max-width: 150px;
-    max-height: 150px;
+    flex: 1 1 auto;
 }
 
 .card .text {
     text-align: center;
-    max-width: 150px;
+    width: 150px;
     color: #b9b9b9;
 }
 
-.
+.quotation {
+    background-color: #E5E7EB;
+    padding: 0 256px;
+
+}
